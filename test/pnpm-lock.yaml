@@ -1,0 +1,12 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  npm-test-lsx:
+    specifier: ^1.0.5
+    version: 1.0.5
+
+packages:
+
+  /npm-test-lsx@1.0.5:
+    resolution: {integrity: sha512-4J+ounYfCId7R4vCttznzZyo1rImwCo11wKuAEC/wGqpE9E5RiZzMxYoqGfWuQhvQ1QKom2rFRSi2vbMT7lKYA==}
+    dev: false

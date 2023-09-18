@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <script src="./node_modules/npm-test-lsx/dist/umd/index.js"></script>
+
+    <script>
+        let test = new NpmTest();
+        test.fun1();
+        test.fun2().then(res => {
+            console.log(res);
+        });
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
