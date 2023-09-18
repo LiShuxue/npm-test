@@ -1,12 +1,11 @@
 {
   "name": "npm-test-lsx",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "this is a test npm package",
   "repository": {
     "type": "git",
     "url": "https://github.com/LiShuxue/npm-test.git"
   },
-  "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "umd:main": "dist/umd/index.js",
@@ -15,7 +14,7 @@
     "src/"
   ],
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c --bundleConfigAsCjs"
   },
   "author": "LSX",
   "license": "ISC",
