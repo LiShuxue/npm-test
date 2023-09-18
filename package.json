@@ -1,0 +1,25 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "this is a test npm package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/react.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "LSX",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.19",
+    "@babel/preset-env": "^7.22.15",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "rollup": "^3.29.1"
+  }
+}
