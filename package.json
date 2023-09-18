@@ -1,14 +1,13 @@
 {
   "name": "npm-test-lsx",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "this is a test npm package",
   "repository": {
     "type": "git",
     "url": "https://github.com/LiShuxue/npm-test.git"
   },
-  "main": "dist/cjs/index.js",
+  "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
-  "umd:main": "dist/umd/index.js",
   "files": [
     "dist/",
     "src/"
