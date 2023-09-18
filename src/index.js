@@ -1,3 +1,4 @@
+import { test } from "./a";
 class NpmTest {
   a = 1;
   b = 2;
@@ -7,6 +8,7 @@ class NpmTest {
     const d = 4;
     const e = new Set([1, 1, 2]);
     console.log(c, d, e);
+    test();
   };
 
   fun2 = async () => {
@@ -19,6 +21,4 @@ class NpmTest {
   };
 }
 
-const test = new NpmTest();
-
-export default test;
+export default NpmTest;

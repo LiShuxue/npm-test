@@ -386,6 +386,10 @@
     return typeof key === "symbol" ? key : String(key);
   }
 
+  var test = function test() {
+    console.log(2);
+  };
+
   var NpmTest = /*#__PURE__*/_createClass(function NpmTest() {
     _classCallCheck(this, NpmTest);
     _defineProperty(this, "a", 1);
@@ -395,6 +399,7 @@
       var d = 4;
       var e = new Set([1, 1, 2]);
       console.log(c, d, e);
+      test();
     });
     _defineProperty(this, "fun2", /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
       var p, res;
@@ -416,8 +421,7 @@
       }, _callee);
     })));
   });
-  var test = new NpmTest();
 
-  return test;
+  return NpmTest;
 
 }));
